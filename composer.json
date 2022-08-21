@@ -1,11 +1,11 @@
 {
-    "name": "asantibanez/laravel-blade-sortable",
+    "name": "erikwestlund/laravel-blade-sortable",
     "description": "Custom Blade components to add sortable/drag-and-drop HTML elements in your apps",
     "keywords": [
-        "asantibanez",
+        "erikwestlund",
         "laravel-blade-sortable"
     ],
-    "homepage": "https://github.com/asantibanez/laravel-blade-sortable",
+    "homepage": "https://github.com/erikwestlund/laravel-blade-sortable",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LaravelBladeSortable\\": "src"
+            "ErikWestlund\\LaravelBladeSortable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LaravelBladeSortable\\Tests\\": "tests"
+            "ErikWestlund\\LaravelBladeSortable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LaravelBladeSortable\\LaravelBladeSortableServiceProvider"
+                "ErikWestlund\\LaravelBladeSortable\\LaravelBladeSortableServiceProvider"
             ],
             "aliases": {
-                "LaravelBladeSortable": "Asantibanez\\LaravelBladeSortable\\LaravelBladeSortableFacade"
+                "LaravelBladeSortable": "ErikWestlund\\LaravelBladeSortable\\LaravelBladeSortableFacade"
             }
         }
     },

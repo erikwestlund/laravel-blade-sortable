@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Asantibanez\LaravelBladeSortable\Components;
+namespace ErikWestlund\LaravelBladeSortable\Components;
 
 
 use Illuminate\View\Component;

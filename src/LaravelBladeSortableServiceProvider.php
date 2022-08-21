@@ -1,10 +1,10 @@
 <?php
 
-namespace Asantibanez\LaravelBladeSortable;
+namespace ErikWestlund\LaravelBladeSortable;
 
-use Asantibanez\LaravelBladeSortable\Components\Scripts;
-use Asantibanez\LaravelBladeSortable\Components\Sortable;
-use Asantibanez\LaravelBladeSortable\Components\SortableItem;
+use ErikWestlund\LaravelBladeSortable\Components\Scripts;
+use ErikWestlund\LaravelBladeSortable\Components\Sortable;
+use ErikWestlund\LaravelBladeSortable\Components\SortableItem;
 use Blade;
 use Illuminate\Support\ServiceProvider;
 

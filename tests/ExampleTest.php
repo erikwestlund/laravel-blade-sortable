@@ -1,9 +1,9 @@
 <?php
 
-namespace Asantibanez\LaravelBladeSortable\Tests;
+namespace ErikWestlund\LaravelBladeSortable\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Asantibanez\LaravelBladeSortable\LaravelBladeSortableServiceProvider;
+use ErikWestlund\LaravelBladeSortable\LaravelBladeSortableServiceProvider;
 
 class ExampleTest extends TestCase
 {

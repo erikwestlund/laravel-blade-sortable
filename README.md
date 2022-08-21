@@ -1,22 +1,22 @@
 # Laravel Blade Sortable
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/asantibanez/laravel-blade-sortable.svg?style=flat-square)](https://packagist.org/packages/asantibanez/laravel-blade-sortable)
-[![Total Downloads](https://img.shields.io/packagist/dt/asantibanez/laravel-blade-sortable.svg?style=flat-square)](https://packagist.org/packages/asantibanez/laravel-blade-sortable)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ErikWestlund/laravel-blade-sortable.svg?style=flat-square)](https://packagist.org/packages/ErikWestlund/laravel-blade-sortable)
+[![Total Downloads](https://img.shields.io/packagist/dt/ErikWestlund/laravel-blade-sortable.svg?style=flat-square)](https://packagist.org/packages/ErikWestlund/laravel-blade-sortable)
 
-![Laravel Blade Sortable](https://laravel-og.beyondco.de/Laravel%20Blade%20Sortable.png?theme=light&packageManager=composer+require&packageName=asantibanez%2Flaravel-blade-sortable&pattern=architect&style=style_1&description=Custom+Blade+components+to+add+sortable%2Fdrag-and-drop+HTML+elements+in+your+apps&md=1&showWatermark=1&fontSize=100px&images=menu)
+![Laravel Blade Sortable](https://laravel-og.beyondco.de/Laravel%20Blade%20Sortable.png?theme=light&packageManager=composer+require&packageName=ErikWestlund%2Flaravel-blade-sortable&pattern=architect&style=style_1&description=Custom+Blade+components+to+add+sortable%2Fdrag-and-drop+HTML+elements+in+your+apps&md=1&showWatermark=1&fontSize=100px&images=menu)
 
 ## Demo
 
-[Repo](https://github.com/asantibanez/laravel-blade-sortable-demo)
+[Repo](https://github.com/ErikWestlund/laravel-blade-sortable-demo)
 
-![demo](https://github.com/asantibanez/laravel-blade-sortable/raw/master/demo.gif)
+![demo](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/demo.gif)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require asantibanez/laravel-blade-sortable
+composer require ErikWestlund/laravel-blade-sortable
 ```
 
 After the package is installed, make sure to add `laravel-blade-sortable::scripts`
@@ -119,13 +119,13 @@ track of the ordering of the elements. Should be unique too.
 And that's it. You have now a sortable list rendered by Laravel Blade
 without any custom Javascript. 🔥
 
-![basic](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/basic.gif)
+![basic](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/basic.gif)
 
 That example looks awful though 😅. Because you can pass in any custom component or styling directly,
 you can customize the wrapper and item nodes according to your needs. Here's another example using
 TailwindCSS ❤️ and custom components
 
-![custom-component](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/custom-component.gif)
+![custom-component](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/custom-component.gif)
 
 Looks dope, right? 👌
 
@@ -150,7 +150,7 @@ component. The `name` should be the name of the input in your form.
 By adding a `name` props, the component internally adds hidden inputs
 for each one of the items' `sort-key`. 
 
-![as-form-input](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/as-form-input.gif)
+![as-form-input](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/as-form-input.gif)
 
 Pretty neat! 👌
 
@@ -179,7 +179,7 @@ In the example above, every time your items are sorted, the `handleSortOrderChan
 method will be called passing as argument an array with your items' `sort-key` in the
 current order.
 
-![livewire](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/livewire.gif)
+![livewire](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/livewire.gif)
 
 Extra info is passed along too, so you can check extra data when processing the sort order
 
@@ -212,7 +212,7 @@ props to a `laravel-blade-sortable::sortable` component:
 </x-laravel-blade-sortable::sortable>
 ```
 
-![customization](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/customization.gif)
+![customization](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/customization.gif)
 
 ### Multiple Drop Zones
 
@@ -235,7 +235,7 @@ Just add a `group` string prop to a `laravel-blade-sortable::sortable` component
 </x-laravel-blade-sortable::sortable>
 ```
 
-![drag-drop](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/drag-drop.gif)
+![drag-drop](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/drag-drop.gif)
 
 ### Enable/Disable sorting and/or drop
 
@@ -254,7 +254,7 @@ Both defaults to `true`.
 </x-laravel-blade-sortable::sortable>
 ```
 
-![disable-sort-drop](https://github.com/asantibanez/laravel-blade-sortable/raw/master/examples/disable-sort-drop.gif)
+![disable-sort-drop](https://github.com/ErikWestlund/laravel-blade-sortable/raw/master/examples/disable-sort-drop.gif)
 
 ### Testing
 
@@ -276,7 +276,7 @@ If you discover any security related issues, please email santibanez.andres@gmai
 
 ## Credits
 
-- [Andrés Santibáñez](https://github.com/asantibanez)
+- [Andrés Santibáñez](https://github.com/ErikWestlund)
 - [All Contributors](../../contributors)
 
 ## License
